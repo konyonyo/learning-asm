@@ -3,7 +3,7 @@ Learning assembly language
 
 ## Prerequisite
 
-OS is Linux. My environment is `x86_64`, Ubuntu 18.04.
+OS is assumed to be Linux. My environment is `x86_64`, Ubuntu 18.04.
 
 ### Environment setting for AArch64 assembly program
 
@@ -14,7 +14,7 @@ OS is Linux. My environment is `x86_64`, Ubuntu 18.04.
 5. Execute the executable by qemu
 
 
-## How to assemble and execute assembly program
+## How to assemble and execute
 
 ```
 $ agcc=./gcc-arm-8.3-2019.03-x86_64-aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc
