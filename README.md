@@ -65,3 +65,12 @@ $ qemu-aarch64 a.out
 val=7.000000
 ```
 
+## How to specify SVE vector length for qemu
+
+You can specify `number of bits of a vector / 128` for the option `-cpu max,sve-max-vq`.  
+The following command means that SVE vector length is `2 * 128 = 256bits`.
+
+```
+$ qemu-aarch64 -cpu max,sve-max-vq=2 a.out
+```
+
